@@ -1,0 +1,19 @@
+{
+  "name": "html-minify-compare",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "compare": "node minify.js"
+  },
+  "devDependencies": {
+    "@minify-html/node": "^0.18.1",
+    "@swc/html": "^1.15.11",
+    "cssnano": "^7.1.2",
+    "html-minifier-next": "^5.0.3",
+    "html-minifier-terser": "^7.2.0",
+    "htmlnano": "^3.1.0",
+    "lightningcss": "^1.31.1",
+    "svgo": "^4.0.0"
+  }
+}
